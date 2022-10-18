@@ -1,3 +1,6 @@
+Kang Krne Wala Randi Ka Baccha 
+Owned By @Xd_Nitric <3
+
 from pyrogram import Client, filters
 from pyrogram.types import *
 from pymongo import MongoClient
