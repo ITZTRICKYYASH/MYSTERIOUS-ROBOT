@@ -88,7 +88,7 @@ repo(){
 
 	[[ ! "CHATBOT" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
 
-	git clone https://github.com/NitricXd/HoneyChatbot &&  cd HoneyChatbot
+	git clone https://github.com/ITZTRICKYYASH/Vexera-ChatBot &&  cd HoneyChatbot
 
 }
 
