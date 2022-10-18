@@ -1,5 +1,5 @@
 # About
-An Advanced Telegram Chatbot Open Sorce Code
+Your New Telegram Chat Buddy :)) Powered By XCodeBots. 
 
 ## How To Host
 The easiest way to deploy this Bot
