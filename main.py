@@ -36,15 +36,15 @@ async def is_admins(chat_id: int):
 
 
 
-@bot.on_message(filters.command("pstart"))
+@bot.on_message(filters.command("start"))
 async def start(client, message):
     self = await bot.get_me()
     busername = self.username
     if message.chat.type != "private":
         buttons = [
                   [
-                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/XCodeBots"),
-                   InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/XCodeSupport"),
+                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/VexeraUpdates"),
+                   InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/VexeraSupport"),
                   ]       
                   ]
         await message.reply("ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴇʀsᴏɴᴀʟ",
@@ -52,7 +52,7 @@ async def start(client, message):
         
     else:
         buttons = [[
-            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/MissHoneyRobot?startgroup=true")
+            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/VexeraChatBot?startgroup=true")
         ]
         ]
         video = "https://te.legra.ph/file/0239a463550472e4b0c70.mp4"
@@ -60,10 +60,10 @@ async def start(client, message):
 ɪ ᴀᴍ ᴄʜᴀᴛʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴏᴡɴᴇʀ   [⏤͟͞•𝙉𝙄𝙏𝙍𝙄𝘾"___𓆩᪵🤍💸𓆪̥](https://t.me/Xd_Nitric)
-┣★ ᴜᴘᴅᴀᴛᴇs [ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ](https://t.me/XCodeBots)
-┣★ sᴜᴘᴘᴏʀᴛ [ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ](https://t.me/XCodeSupport)
-┣★ sᴏᴜʀᴄᴇ  [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://pornhub.com)
+┣★ ᴏᴡɴᴇʀ   [⏤͟͞•𝙉𝙄𝙏𝙍𝙄𝘾"___𓆩᪵🤍💸𓆪̥](https://t.me/Am_TrickyYash)
+┣★ ᴜᴘᴅᴀᴛᴇs [ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ](https://t.me/VexeraUpdates)
+┣★ sᴜᴘᴘᴏʀᴛ [ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ](https://t.me/VexeraSupport)
+┣★ sᴏᴜʀᴄᴇ  [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://t.me/Am_TrickyYash)
 ┗━━━━━━━━━━━━━━━━━┛
 """, reply_markup=InlineKeyboardMarkup(buttons))
 
